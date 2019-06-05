@@ -34,5 +34,3 @@ def post(url,*args,**kwargs):
     data=urllib.parse.urlencode(kwargs['postData']).encode(charset)
     return urllib.request.urlopen(url,data=data).read()
 
-
-

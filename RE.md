@@ -503,12 +503,3 @@ print re.findall('src="(.*?)"',test)
 >>> 
 findall函数返回的总是正则表达式在字符串中所有匹配结果的列表，即findall中返回列表中每个元素包含的信息。
 
---------------------- 
-作者：Eastmount 
-来源：CSDN 
-原文：https://blog.csdn.net/eastmount/article/details/51082253 
-版权声明：本文为博主原创文章，转载请附上博文链接！
-```
-
-
-

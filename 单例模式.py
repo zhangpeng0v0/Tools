@@ -18,3 +18,21 @@ class SingletonMeta(type):
 class President(metaclass=SingletonMeta):
     """总统(单例类)"""
     pass
+
+
+# 利用装饰器来实现一个单例模式
+
+def A(cls):
+    ab = {}
+
+    def a(*args, **kargs):
+        if cls not in ab:
+            ab[cls] = cls(*args, **kargs)
+        return ab[cls]
+
+    return a
+
+
+@A
+class B(object):
+    pass

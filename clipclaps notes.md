@@ -2,7 +2,7 @@
 
 > > ```账号：deerking321@gmail.com```
 > >
-> > ```密码：zp920316```
+> > ```密码：zp92xxxx```
 
 # news API
 

@@ -92,19 +92,3 @@ if __name__ == '__main__':
     for j in p:
         print(j.item,end=' ')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

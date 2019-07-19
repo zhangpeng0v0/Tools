@@ -97,3 +97,15 @@ git diff --cached
 提交，推送
 
 注意当前所在的分支，避免误操作 (spacefish 配置好后能直接看到状态）
+
+设置代理
+
+git config --global http.proxy 代理地址git config --global https.proxy 代理地址
+
+取消代理
+
+git config --global --unset http.proxygit config --global --unset https.proxy
+
+查看当前已设置的代理
+
+git config --global --get http.proxygit config --global --get https.proxy
